@@ -1,0 +1,145 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    border:0
+}
+
+header{
+    background-color: #ffe4ec;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    margin: 10px;
+    max-width:100px;
+    max-height:75px;
+}
+
+#image{
+    max-width:80%;
+    max-height:80%;
+    margin: 10px;
+}
+
+#video{
+    margin-top: 10px;
+}
+
+h1{
+    font-family: fantasy;
+    color: #cc1100;
+    font-size: 35px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.sub-box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 30px 30px 30px;
+}
+
+h2{
+    text-align: center;
+    font-family: fantasy;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 20px;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    text-indent: 5ch;
+    max-width: 80%;
+    font-size: 20px;
+}
+
+.lista1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lista2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+  
+ol li {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+  
+ul li {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.table{
+    margin-top: 20px;
+}
+    
+table, th, td {
+border: 1px solid black;
+}
+
+table {
+border-collapse: collapse;
+margin: auto;
+}
+
+th, td{
+padding: 10px;
+text-align: center;
+width: 120px;
+}
+
+th{
+font-weight: bold;
+background-color: #ffe4ec;
+
+}
+
+tr:nth-child(even) {
+background-color: #ffe4ec;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    border:1px solid #000000;
+    border-radius:4px;
+    cursor:pointer;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+}
